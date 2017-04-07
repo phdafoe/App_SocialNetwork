@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  App_SocialNetwork
+
+  Created by formador on 31/3/17.
+  Copyright © 2017 formador. All rights reserved.
+*/
+
+GOOD_MORNING = "Buenos días";
+TITLE_DATA = "Titulo en Alert VC en Español";
+MESSAGE_DATA = "Estamosen clase de iOS en Español";

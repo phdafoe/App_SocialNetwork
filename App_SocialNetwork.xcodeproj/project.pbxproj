@@ -8,20 +8,41 @@
 
 /* Begin PBXBuildFile section */
 		8B3A17A91E8EBFA40080669F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3A17A81E8EBFA40080669F /* AppDelegate.swift */; };
-		8B3A17AB1E8EBFA40080669F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3A17AA1E8EBFA40080669F /* ViewController.swift */; };
 		8B3A17AE1E8EBFA40080669F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B3A17AC1E8EBFA40080669F /* Main.storyboard */; };
 		8B3A17B01E8EBFA40080669F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B3A17AF1E8EBFA40080669F /* Assets.xcassets */; };
 		8B3A17B31E8EBFA40080669F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B3A17B11E8EBFA40080669F /* LaunchScreen.storyboard */; };
+		8B3A17BB1E8EC9640080669F /* SNPostSocialNetworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3A17BA1E8EC9640080669F /* SNPostSocialNetworkViewController.swift */; };
+		8B3A17BD1E8EC9760080669F /* SNTouchIDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3A17BC1E8EC9760080669F /* SNTouchIDViewController.swift */; };
+		8B3A17BF1E8EC98A0080669F /* SNInternacionalizacionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3A17BE1E8EC98A0080669F /* SNInternacionalizacionViewController.swift */; };
+		8B3A17C11E8EC9A50080669F /* SNPlayMusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3A17C01E8EC9A50080669F /* SNPlayMusicViewController.swift */; };
+		8B3A17C31E8ECDF60080669F /* APIHELPERS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3A17C21E8ECDF60080669F /* APIHELPERS.swift */; };
+		8B3A17CA1E8EDF160080669F /* hola.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B3A17CC1E8EDF160080669F /* hola.png */; };
+		8B3A17D61E8EE2C50080669F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8B3A17D81E8EE2C50080669F /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8B3A17A51E8EBFA40080669F /* App_SocialNetwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App_SocialNetwork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B3A17A81E8EBFA40080669F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8B3A17AA1E8EBFA40080669F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8B3A17AD1E8EBFA40080669F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8B3A17AF1E8EBFA40080669F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B3A17B21E8EBFA40080669F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B3A17B41E8EBFA40080669F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B3A17BA1E8EC9640080669F /* SNPostSocialNetworkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SNPostSocialNetworkViewController.swift; sourceTree = "<group>"; };
+		8B3A17BC1E8EC9760080669F /* SNTouchIDViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SNTouchIDViewController.swift; sourceTree = "<group>"; };
+		8B3A17BE1E8EC98A0080669F /* SNInternacionalizacionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SNInternacionalizacionViewController.swift; sourceTree = "<group>"; };
+		8B3A17C01E8EC9A50080669F /* SNPlayMusicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SNPlayMusicViewController.swift; sourceTree = "<group>"; };
+		8B3A17C21E8ECDF60080669F /* APIHELPERS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIHELPERS.swift; sourceTree = "<group>"; };
+		8B3A17C71E8EDCFC0080669F /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		8B3A17C91E8EDDE40080669F /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		8B3A17CB1E8EDF160080669F /* es */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = es; path = es.lproj/hola.png; sourceTree = "<group>"; };
+		8B3A17CD1E8EDF180080669F /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = en.lproj/hola.png; sourceTree = "<group>"; };
+		8B3A17CF1E8EE0860080669F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		8B3A17D01E8EE0A50080669F /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		8B3A17D11E8EE0A50080669F /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		8B3A17D21E8EE0A50080669F /* fr */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fr; path = fr.lproj/hola.png; sourceTree = "<group>"; };
+		8B3A17D71E8EE2C50080669F /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8B3A17D91E8EE2C70080669F /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8B3A17DA1E8EE2C80080669F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +75,28 @@
 		8B3A17A71E8EBFA40080669F /* App_SocialNetwork */ = {
 			isa = PBXGroup;
 			children = (
-				8B3A17A81E8EBFA40080669F /* AppDelegate.swift */,
-				8B3A17AA1E8EBFA40080669F /* ViewController.swift */,
+				8B3A17CC1E8EDF160080669F /* hola.png */,
+				8B3A17D31E8EE2920080669F /* VIEWS_CONTROLLERS */,
 				8B3A17AC1E8EBFA40080669F /* Main.storyboard */,
 				8B3A17AF1E8EBFA40080669F /* Assets.xcassets */,
 				8B3A17B11E8EBFA40080669F /* LaunchScreen.storyboard */,
 				8B3A17B41E8EBFA40080669F /* Info.plist */,
 			);
 			path = App_SocialNetwork;
+			sourceTree = "<group>";
+		};
+		8B3A17D31E8EE2920080669F /* VIEWS_CONTROLLERS */ = {
+			isa = PBXGroup;
+			children = (
+				8B3A17A81E8EBFA40080669F /* AppDelegate.swift */,
+				8B3A17C21E8ECDF60080669F /* APIHELPERS.swift */,
+				8B3A17BA1E8EC9640080669F /* SNPostSocialNetworkViewController.swift */,
+				8B3A17BC1E8EC9760080669F /* SNTouchIDViewController.swift */,
+				8B3A17BE1E8EC98A0080669F /* SNInternacionalizacionViewController.swift */,
+				8B3A17C01E8EC9A50080669F /* SNPlayMusicViewController.swift */,
+				8B3A17D81E8EE2C50080669F /* Localizable.strings */,
+			);
+			name = VIEWS_CONTROLLERS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -107,6 +142,8 @@
 			knownRegions = (
 				en,
 				Base,
+				fr,
+				es,
 			);
 			mainGroup = 8B3A179C1E8EBFA40080669F;
 			productRefGroup = 8B3A17A61E8EBFA40080669F /* Products */;
@@ -123,9 +160,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B3A17D61E8EE2C50080669F /* Localizable.strings in Resources */,
 				8B3A17B31E8EBFA40080669F /* LaunchScreen.storyboard in Resources */,
 				8B3A17B01E8EBFA40080669F /* Assets.xcassets in Resources */,
 				8B3A17AE1E8EBFA40080669F /* Main.storyboard in Resources */,
+				8B3A17CA1E8EDF160080669F /* hola.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,8 +175,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B3A17AB1E8EBFA40080669F /* ViewController.swift in Sources */,
+				8B3A17C31E8ECDF60080669F /* APIHELPERS.swift in Sources */,
+				8B3A17BD1E8EC9760080669F /* SNTouchIDViewController.swift in Sources */,
+				8B3A17BF1E8EC98A0080669F /* SNInternacionalizacionViewController.swift in Sources */,
+				8B3A17C11E8EC9A50080669F /* SNPlayMusicViewController.swift in Sources */,
 				8B3A17A91E8EBFA40080669F /* AppDelegate.swift in Sources */,
+				8B3A17BB1E8EC9640080669F /* SNPostSocialNetworkViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,6 +191,9 @@
 			isa = PBXVariantGroup;
 			children = (
 				8B3A17AD1E8EBFA40080669F /* Base */,
+				8B3A17C91E8EDDE40080669F /* es */,
+				8B3A17CF1E8EE0860080669F /* en */,
+				8B3A17D01E8EE0A50080669F /* fr */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -156,8 +202,30 @@
 			isa = PBXVariantGroup;
 			children = (
 				8B3A17B21E8EBFA40080669F /* Base */,
+				8B3A17C71E8EDCFC0080669F /* es */,
+				8B3A17D11E8EE0A50080669F /* fr */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		8B3A17CC1E8EDF160080669F /* hola.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B3A17CB1E8EDF160080669F /* es */,
+				8B3A17CD1E8EDF180080669F /* en */,
+				8B3A17D21E8EE0A50080669F /* fr */,
+			);
+			name = hola.png;
+			sourceTree = "<group>";
+		};
+		8B3A17D81E8EE2C50080669F /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B3A17D71E8EE2C50080669F /* fr */,
+				8B3A17D91E8EE2C70080669F /* es */,
+				8B3A17DA1E8EE2C80080669F /* en */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -167,6 +235,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -216,6 +285,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
